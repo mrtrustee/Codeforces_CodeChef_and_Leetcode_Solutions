@@ -1,5 +1,13 @@
 #The challenge just to input the flag as already found in the instruction
 import base64
+from binascii import unhexlify
+
+message = "11515195063862318899931685488813747395775516287289682636499965282714637259206269"
+string_ = "label"
+flag_ = " "
+for j in string_:
+    flag_+= chr(ord(j) ^ 13)
+
 input_ = "72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf"
 convert = bytes.fromhex(input_)
 attempt = base64.b64encode(convert)
@@ -11,6 +19,10 @@ then = ""
 for i in list_:
     conv = chr(i)
     then = then + conv
+
+
+
+
 print(then)
 print(attempt)
 
