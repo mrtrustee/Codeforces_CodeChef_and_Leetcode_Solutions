@@ -9,7 +9,6 @@ for j in string_:
     flag_+= chr(ord(j) ^ 13)
 data = "73626960647f6b206821204f21254f7d694f7624662065622127234f726927756d"
 decoded_data = bytes.fromhex(data)
-
 input_ = "72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf"
 convert = bytes.fromhex(input_)
 attempt = base64.b64encode(convert)
@@ -21,8 +20,6 @@ then = ""
 for i in list_:
     conv = chr(i)
     then = then + conv
-
-print()
 print(then)
 print(attempt)
 
