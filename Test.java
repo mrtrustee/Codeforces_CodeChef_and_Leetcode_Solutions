@@ -1,5 +1,5 @@
 /* ID: Isaiah Fakorede [mrtrustee]
-LANG: Java
+LANG: JAVA
 TASK: test
  */
 import java.io.*;
