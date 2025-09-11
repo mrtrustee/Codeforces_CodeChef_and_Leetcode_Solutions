@@ -1,2 +1,2 @@
-# Codeforces_CodeChef_Codewars_and_Leetcode_Solutions
-My Codeforces,Codewars, CodeChef and Leetcode Solutions to many Problems
+# Competitive_Programming_contests_Solutions
+My Solutions to many competitive programming contests/problems
